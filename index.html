@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie Express - Order Delicious Food Online</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>🍔 Foodie Express 🍕</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#order">Order Now</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="banner">
+        <span><h2>Craving Something Delicious?</h2>
+        <p>Order your favorite meals now and get them delivered hot and fresh!</p>
+        <a href="#menu" class="btn">Explore Menu</a></span>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu-section">
+        <h2>Our Menu</h2>
+        <div class="menu-container">
+
+            <div class="menu-card">
+                <img src="C:\Users\peddi\OneDrive\Attachments\Desktop\Full stack Assesment\Assessment-01\images\cheesy burger.avif" alt="Burger">
+                <h3>Cheesy Burger</h3>
+                <p>Juicy burger loaded with cheese and fresh veggies.</p>
+                <span>₹150</span>
+            </div>
+
+            <div class="menu-card">
+                <img src="C:\Users\peddi\OneDrive\Attachments\Desktop\Full stack Assesment\Assessment-01\images\spicy pizza.jpg" alt="Pizza">
+                <h3>Spicy Pizza</h3>
+                <p>Delicious pizza topped with spicy sauce and mozzarella.</p>
+                <span>₹250</span>
+            </div>
+
+            <div class="menu-card">
+                <img src="C:\Users\peddi\OneDrive\Attachments\Desktop\Full stack Assesment\Assessment-01\images\creamy pasta.avif" alt="Pasta">
+                <h3>Creamy Pasta</h3>
+                <p>Rich and creamy pasta with herbs and parmesan.</p>
+                <span>₹200</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Section -->
+    <section id="order" class="order-section">
+        <h2>Place Your Order</h2>
+        <form>
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+
+            <label for="food">Select Food Item:</label>
+            <select id="food" required>
+                <option value="burger">Cheesy Burger</option>
+                <option value="pizza">Spicy Pizza</option>
+                <option value="pasta">Creamy Pasta</option>
+            </select>
+
+            <label for="address">Delivery Address:</label>
+            <textarea id="address" placeholder="Enter your delivery address" required></textarea>
+
+            <button type="submit" class="btn">Order Now</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <p>&copy; 2025 Foodie Express. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
